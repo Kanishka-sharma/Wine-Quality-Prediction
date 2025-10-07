@@ -1,10 +1,10 @@
-# 🍷 Wine Quality Prediction
+# Wine Quality Prediction
 
 This project focuses on building predictive models for estimating the quality of Portuguese "Vinho Verde" wine samples (both red and white variants) based on their physicochemical properties. The aim is to explore and evaluate different supervised learning methods for modeling wine quality, a complex sensory output influenced by multiple chemical factors.
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 **Source:**  
 Created by Paulo Cortez (University of Minho), Antonio Cerdeira, Fernando Almeida, Telmo Matos, and Jose Reis (CVRVV) in 2009.
@@ -29,7 +29,7 @@ Decision Support Systems, Elsevier, 47(4):547–553.
 
 ---
 
-## 🧪 Features
+## Features
 
 | Feature                  | Description                         |
 |--------------------------|-------------------------------------|
@@ -48,7 +48,7 @@ Decision Support Systems, Elsevier, 47(4):547–553.
 
 ---
 
-## 🧹 Data Cleaning & Exploratory Data Analysis
+## Data Cleaning & Exploratory Data Analysis
 
 - **Data Inspection:** Checked for data types and ensured numeric consistency across all features.
 - **Missing Values:** Confirmed dataset has no missing values.
@@ -60,7 +60,7 @@ Decision Support Systems, Elsevier, 47(4):547–553.
 
 ---
 
-## 🧠 Modeling Approach
+## Modeling Approach
 
 Two modeling strategies were applied to estimate wine quality:
 
@@ -78,7 +78,7 @@ An ensemble learning technique using bagged decision trees.
 
 ---
 
-## ⚖️ Model Comparison
+## Model Comparison
 
 | Metric                  | Elastic Net | Random Forest |
 |-------------------------|-------------|----------------|
